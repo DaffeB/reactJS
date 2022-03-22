@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
 nav{
     display: flex;
     align-items: center;
     background-color: black;
     height: 90px;
     padding: 30px 25px;
+    margin-top: 20px;
+}
+
+nav > h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 nav > h3, nav > h4> {
@@ -12,10 +22,11 @@ nav > h3, nav > h4> {
 
 nav > h3{
     margin-right: auto;
-    color: antiquewhite;
+    color: rgb(93, 198, 206);
 }
 
 nav > img {
-    height: 30px;
+    height: 110px;
     margin-right: 7px;
+    border-radius: 50%;
 }
