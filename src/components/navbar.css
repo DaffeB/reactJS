@@ -22,11 +22,39 @@ nav > h3, nav > h4> {
 
 nav > h3{
     margin-right: auto;
-    color: rgb(93, 198, 206);
+    color: rgb(56, 194, 204);
 }
 
 nav > img {
     height: 110px;
     margin-right: 7px;
     border-radius: 50%;
+}
+
+main {
+    padding: 57px 27px;
+    background-color: antiquewhite;
+ 
+}
+
+.main--title{
+    font-size: 50px;
+    margin: 0;
+    letter-spacing: -0.05em;
+}
+
+.main--facts{
+    margin-top: 45px;
+    max-width: 900px;
+}
+
+.main--facts{
+    line-height: 1.6;
+    padding-block: 10px;
+  
+}
+
+.main--facts > li::marker{
+    font-size: 1.4rem;
+    color: rgb(56, 194, 204);
 }
